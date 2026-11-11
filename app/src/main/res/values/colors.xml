@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    These colours are only used by XML (launcher icon, splash screen).
+    The in-app colours live in ui/theme/Color.kt.
+-->
+<resources>
+    <color name="savebox_emerald">#FF059669</color>
+    <color name="savebox_navy">#FF0F1B2D</color>
+    <color name="savebox_background">#FFF5F7F6</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

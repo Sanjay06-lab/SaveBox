@@ -1,0 +1,16 @@
+# Keep line endings consistent for everyone (Windows, Mac, Linux).
+* text=auto
+
+# Shell scripts must use LF or they won't run on Mac/Linux.
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows batch files need CRLF.
+*.bat text eol=crlf
+
+# Binary files: never change them.
+*.jar binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.jks binary

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SaveBox</string>
+    <string name="app_tagline">Small savings. Bigger possibilities.</string>
+    <string name="widget_description">Your total savings and a goal\'s progress</string>
+
+    <!-- Example numbers for the widget picker preview only (never real data). -->
+    <string name="widget_preview_label" translatable="false">SaveBox · Total saved</string>
+    <string name="widget_preview_total" translatable="false">₹15,000</string>
+    <string name="widget_preview_goal" translatable="false">🎮 PlayStation · 21%</string>
+    <string name="widget_preview_remaining" translatable="false">₹55,000 to go</string>
+</resources>

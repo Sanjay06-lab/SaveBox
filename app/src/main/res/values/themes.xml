@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Theme.SaveBox.Starting is shown while the app launches (splash screen).
+        After launch, MainActivity switches to Theme.SaveBox and Compose draws everything,
+        so the real app styling is in ui/theme/Theme.kt.
+    -->
+    <style name="Theme.SaveBox" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.SaveBox.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/savebox_emerald</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.SaveBox</item>
+    </style>
+</resources>

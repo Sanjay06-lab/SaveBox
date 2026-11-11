@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android Auto Backup rules for Android 11 and lower.
+    SaveBox data stays on the device; the user's own Google backup may copy it
+    (the user controls this in Android settings). In-app backup/restore is added in Phase 5.
+-->
+<full-backup-content>
+    <include domain="database" path="." />
+    <include domain="file" path="datastore/" />
+</full-backup-content>
